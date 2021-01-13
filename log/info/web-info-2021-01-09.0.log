@@ -1,0 +1,808 @@
+2021-01-09 11:11:10.158 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 12524 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:11:10.160 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: pro
+2021-01-09 11:11:11.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a25567d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:11:11.039 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:11:11.349 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:11:11.358 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:11:11.359 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:11:11.359 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:11:11.465 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:11:11.467 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1235 ms
+2021-01-09 11:11:12.301 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:11:12.534 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:11:12.553 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:11:12.563 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 2.967 seconds (JVM running for 3.797)
+2021-01-09 11:22:08.931 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:22:15.134 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 10956 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:22:15.135 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:22:16.355 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b73fbc74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:22:16.392 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:22:16.707 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:22:16.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:22:16.717 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:22:16.717 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:22:16.842 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:22:16.843 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1627 ms
+2021-01-09 11:22:17.924 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:22:18.018 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:22:18.240 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:22:18.273 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:22:18.275 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:22:18.293 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:22:18.337 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:22:18.374 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 3.837 seconds (JVM running for 4.72)
+2021-01-09 11:22:33.997 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 11:22:33.997 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 11:22:33.999 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-01-09 11:23:49.810 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:23:53.668 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 9064 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:23:53.669 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:23:54.873 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$62e88dee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:23:54.915 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:23:55.244 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:23:55.255 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:23:55.256 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:23:55.257 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:23:55.376 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:23:55.376 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1627 ms
+2021-01-09 11:23:56.484 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:23:56.580 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:23:56.802 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:23:56.835 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:23:56.837 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:23:56.856 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:23:56.943 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:23:56.979 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 3.888 seconds (JVM running for 4.747)
+2021-01-09 11:24:14.081 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 11:24:14.081 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 11:24:14.082 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 11:25:25.029 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:25:28.975 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 7616 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:25:28.975 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:25:30.235 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8dc7e9ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:25:30.276 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:25:30.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:25:30.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:25:30.627 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:25:30.627 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:25:30.754 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:25:30.755 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1695 ms
+2021-01-09 11:25:31.960 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:25:32.063 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:25:32.290 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:25:32.310 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:25:32.311 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:25:32.387 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:25:32.419 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:25:32.542 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.163 seconds (JVM running for 5.14)
+2021-01-09 11:26:10.621 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:26:13.511 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 11448 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:26:13.513 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:26:14.654 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$66d2dda1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:26:14.693 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:26:15.001 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:26:15.010 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:26:15.011 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:26:15.011 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:26:15.128 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:26:15.128 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1536 ms
+2021-01-09 11:26:16.159 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:26:16.248 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:26:16.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:26:16.479 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:26:16.480 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:26:16.509 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:26:16.540 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:26:16.643 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 3.733 seconds (JVM running for 4.62)
+2021-01-09 11:26:19.075 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 11:26:19.075 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 11:26:19.076 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 11:26:31.959 [http-nio-6000-exec-10] INFO  com.chengq.chengq.controller.HomeController - =======info===========
+2021-01-09 11:26:32.020 [http-nio-6000-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 11:26:32.218 [http-nio-6000-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 11:33:01.799 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:33:01.801 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 11:33:01.809 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 11:33:08.279 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 13164 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:33:08.286 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:33:12.565 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ab46105a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:33:12.650 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:33:13.006 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:33:13.016 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:33:13.017 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:33:13.017 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:33:13.140 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:33:13.140 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4672 ms
+2021-01-09 11:33:14.147 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:33:14.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:33:14.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:33:14.479 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:33:14.508 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:33:14.541 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:33:14.644 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 6.975 seconds (JVM running for 8.051)
+2021-01-09 11:33:18.884 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 11:33:18.885 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 11:33:18.886 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 11:34:10.635 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 11380 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:34:10.638 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:34:11.932 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5959c547] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:34:11.976 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:34:12.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:34:12.313 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:34:12.314 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:34:12.315 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:34:12.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:34:12.469 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1742 ms
+2021-01-09 11:34:13.625 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:34:13.730 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:34:13.986 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:34:14.009 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:34:14.011 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:34:14.044 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:34:14.086 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:34:14.208 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.212 seconds (JVM running for 5.108)
+2021-01-09 11:34:16.623 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 11:34:16.623 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 11:34:16.625 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-01-09 11:34:24.779 [http-nio-6000-exec-5] INFO  com.chengq.chengq.controller.HomeController - =======info===========
+2021-01-09 11:34:24.852 [http-nio-6000-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 11:34:25.049 [http-nio-6000-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 11:36:23.850 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:36:23.851 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 11:36:23.860 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 11:36:27.691 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 11784 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:36:27.694 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:36:28.847 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6b5238f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:36:28.886 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:36:29.190 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:36:29.198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:36:29.199 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:36:29.200 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:36:29.315 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:36:29.315 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1540 ms
+2021-01-09 11:36:30.322 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:36:30.408 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:36:30.646 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:36:30.666 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:36:30.667 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:36:30.697 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:36:30.730 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:36:30.833 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 3.726 seconds (JVM running for 4.64)
+2021-01-09 11:36:35.413 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 11:36:35.413 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 11:36:35.414 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 11:38:13.098 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:38:16.874 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 8248 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 11:38:16.877 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 11:38:18.015 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$b73fbc74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 11:38:18.054 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 11:38:18.351 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 11:38:18.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:38:18.361 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 11:38:18.361 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 11:38:18.479 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 11:38:18.479 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1522 ms
+2021-01-09 11:38:19.463 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 11:38:19.558 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 11:38:19.762 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 11:38:19.780 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 11:38:19.781 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 11:38:19.808 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 11:38:19.838 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 11:38:19.983 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 3.686 seconds (JVM running for 4.551)
+2021-01-09 11:38:43.630 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 11:38:43.630 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 11:38:43.631 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 11:38:57.524 [http-nio-6000-exec-7] INFO  com.chengq.chengq.controller.HomeController - =======info===========
+2021-01-09 11:38:57.582 [http-nio-6000-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 11:38:57.783 [http-nio-6000-exec-7] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 11:41:22.206 [http-nio-6000-exec-7] INFO  com.chengq.chengq.controller.HomeController - =======info===========
+2021-01-09 11:41:26.966 [http-nio-6000-exec-8] INFO  com.chengq.chengq.controller.HomeController - =======info===========
+2021-01-09 12:00:12.312 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 12:00:12.313 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 12:00:12.321 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 12:06:18.730 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 12728 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 12:06:18.737 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 12:06:19.820 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 12:06:19.824 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 12:06:19.862 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-01-09 12:06:20.226 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c0f250b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 12:06:20.259 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 12:06:20.283 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$b1f9e91d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 12:06:20.647 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 12:06:20.656 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 12:06:20.656 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 12:06:20.656 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 12:06:20.786 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 12:06:20.786 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms
+2021-01-09 12:06:22.174 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 12:06:22.337 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 12:06:22.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 12:06:22.680 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 12:06:22.681 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 12:06:22.699 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 12:06:22.730 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 12:06:22.844 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.896 seconds (JVM running for 5.838)
+2021-01-09 12:06:35.506 [http-nio-6000-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 12:06:35.506 [http-nio-6000-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 12:06:35.508 [http-nio-6000-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 12:06:36.196 [http-nio-6000-exec-2] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 12:06:36.244 [http-nio-6000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 12:06:36.459 [http-nio-6000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 12:14:54.989 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 12:14:55.216 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 12:14:55.240 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 12:14:59.255 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 14260 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 12:14:59.257 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 12:15:00.303 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 12:15:00.305 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 12:15:00.332 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-01-09 12:15:00.637 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a9e11bf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 12:15:00.674 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 12:15:00.685 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$9ae8b45a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 12:15:01.019 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 12:15:01.028 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 12:15:01.029 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 12:15:01.029 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 12:15:01.158 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 12:15:01.159 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1821 ms
+2021-01-09 12:15:02.581 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 12:15:02.694 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 12:15:03.006 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 12:15:03.027 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 12:15:03.028 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 12:15:03.046 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 12:15:03.095 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 12:15:03.195 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.524 seconds (JVM running for 5.416)
+2021-01-09 12:16:50.794 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 12:16:50.795 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 12:16:50.796 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 12:16:51.478 [http-nio-6000-exec-1] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 12:16:51.514 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 12:16:51.722 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 12:18:29.897 [http-nio-6000-exec-4] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 14:07:09.594 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:07:09.881 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 14:07:09.891 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 14:07:14.061 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 12352 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:07:14.064 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:07:15.166 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:07:15.169 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:07:15.192 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:07:15.517 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$12626712] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:07:15.550 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:07:15.567 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$369ff78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:07:15.900 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:07:15.909 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:07:15.909 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:07:15.910 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:07:16.041 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:07:16.041 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1883 ms
+2021-01-09 14:07:17.454 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 14:07:17.622 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:07:17.945 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:07:17.984 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 14:07:17.985 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 14:07:18.003 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 14:07:18.048 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 14:07:18.182 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.729 seconds (JVM running for 5.629)
+2021-01-09 14:07:26.845 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 14:07:26.845 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 14:07:26.847 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 14:07:54.814 [http-nio-6000-exec-6] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 14:07:54.855 [http-nio-6000-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 14:07:55.073 [http-nio-6000-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 14:08:23.174 [http-nio-6000-exec-9] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 14:12:34.471 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:12:34.689 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 14:12:34.703 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 14:12:37.834 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 7432 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:12:37.836 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:12:38.891 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:12:38.896 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:12:38.919 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:12:39.243 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$eb9e5f5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:12:39.275 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:12:39.293 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$dca5f7c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:12:39.625 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:12:39.635 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:12:39.635 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:12:39.635 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:12:39.772 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:12:39.772 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1852 ms
+2021-01-09 14:12:41.223 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 14:12:41.334 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:12:41.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:12:41.679 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 14:12:41.681 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 14:12:41.699 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 14:12:41.730 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 14:12:41.844 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.587 seconds (JVM running for 5.599)
+2021-01-09 14:12:53.767 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:12:56.795 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 13164 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:12:56.798 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:12:57.929 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:12:57.935 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:12:57.958 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:12:58.322 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$faa7bac2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:12:58.373 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:12:58.394 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$ebaf5328] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:12:58.744 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:12:58.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:12:58.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:12:58.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:12:58.895 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:12:58.895 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2011 ms
+2021-01-09 14:13:00.289 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 14:13:00.451 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:13:00.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:13:00.812 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 14:13:00.813 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 14:13:00.834 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 14:13:00.885 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 14:13:00.990 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.801 seconds (JVM running for 5.86)
+2021-01-09 14:13:08.497 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 14:13:08.498 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 14:13:08.499 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 14:13:33.686 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:13:36.743 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 13716 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:13:36.746 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:13:37.787 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:13:37.790 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:13:37.814 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:13:38.131 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$12626712] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:13:38.170 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:13:38.182 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$369ff78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:13:38.523 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:13:38.534 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:13:38.535 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:13:38.535 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:13:38.666 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:13:38.667 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1838 ms
+2021-01-09 14:13:40.084 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 14:13:40.196 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:13:40.523 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:13:40.543 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 14:13:40.544 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 14:13:40.562 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 14:13:40.607 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 14:13:40.710 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.563 seconds (JVM running for 5.517)
+2021-01-09 14:13:44.852 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 14:13:44.852 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 14:13:44.853 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 14:19:30.607 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:19:34.737 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 10720 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:19:34.741 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:19:35.827 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:19:35.833 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:19:35.856 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:19:36.180 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$fe8d0af9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:19:36.224 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:19:36.241 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$ef94a35f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:19:36.605 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:19:36.614 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:19:36.615 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:19:36.615 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:19:36.754 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:19:36.754 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1907 ms
+2021-01-09 14:19:36.829 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2021-01-09 14:19:36.845 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-09 14:20:04.598 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 10844 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:20:04.601 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:20:05.684 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:20:05.690 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:20:05.714 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:20:06.027 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ced6370b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:20:06.066 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:20:06.077 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$bfddcf71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:20:06.416 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:20:06.433 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:20:06.434 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:20:06.434 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:20:06.573 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:20:06.573 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1886 ms
+2021-01-09 14:20:08.043 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 14:20:08.153 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:20:08.476 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:20:08.495 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 14:20:08.496 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 14:20:08.513 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 14:20:08.514 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2021-01-09 14:20:08.523 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.517 seconds (JVM running for 5.499)
+2021-01-09 14:20:13.498 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 14:20:13.498 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 14:20:13.499 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 14:26:05.373 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:26:09.331 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 13864 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:26:09.334 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:26:10.379 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:26:10.381 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:26:10.403 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:26:10.717 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4bc4f1f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:26:10.757 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:26:10.768 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$3ccc8a58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:26:11.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:26:11.112 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:26:11.113 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:26:11.113 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:26:11.239 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:26:11.240 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1822 ms
+2021-01-09 14:26:12.712 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 14:26:12.821 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:26:13.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:26:13.152 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 14:26:13.153 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 14:26:13.171 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 14:26:13.172 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Skipping initializing disabled plugin bean swagger v2.0
+2021-01-09 14:26:13.180 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.439 seconds (JVM running for 5.339)
+2021-01-09 14:26:18.066 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 14:26:18.066 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 14:26:18.067 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 14:26:48.172 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:26:51.050 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 2404 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 14:26:51.052 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 14:26:52.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 14:26:52.084 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 14:26:52.107 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-01-09 14:26:52.412 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c2619474] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:26:52.448 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 14:26:52.459 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$b3692cda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 14:26:52.792 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 14:26:52.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:26:52.802 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 14:26:52.803 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 14:26:52.934 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 14:26:52.934 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1802 ms
+2021-01-09 14:26:54.314 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 14:26:54.481 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 14:26:54.778 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 14:26:54.818 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 14:26:54.819 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 14:26:54.837 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 14:26:54.868 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 14:26:54.969 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 4.495 seconds (JVM running for 5.42)
+2021-01-09 14:27:00.057 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 14:27:00.057 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 14:27:00.059 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 15:11:44.477 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:12:54.525 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 13804 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:12:54.528 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:12:55.638 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:12:55.641 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:12:55.669 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:12:55.997 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e7834ca9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:12:56.035 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:12:56.047 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$d88ae50f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:12:56.387 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:12:56.396 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:12:56.397 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:12:56.397 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:12:56.526 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:12:56.527 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1914 ms
+2021-01-09 15:12:58.393 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:12:58.501 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:12:58.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:12:58.982 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:12:58.983 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:12:59.000 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:12:59.034 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:12:59.132 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:12:59.181 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#d610e1:0/SimpleConnection@163008 [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 61066]
+2021-01-09 15:12:59.266 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.429 seconds (JVM running for 6.45)
+2021-01-09 15:13:09.855 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 15:13:09.856 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 15:13:09.857 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 15:13:14.112 [http-nio-6000-exec-2] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq second:0 ,执行method为:Producers.send
+2021-01-09 15:13:14.132 [http-nio-6000-exec-2] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 15:13:14.203 [http-nio-6000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 15:13:14.460 [http-nio-6000-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 15:13:25.083 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:13:25.087 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:13:25.249 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:13:25.250 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:13:25.430 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 15:13:25.439 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 15:14:56.507 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 13460 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:14:56.513 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:14:57.594 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:14:57.597 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:14:57.625 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:14:57.945 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$bcff5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:14:57.977 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:14:57.995 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$f1c497c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:14:58.331 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:14:58.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:14:58.341 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:14:58.341 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:14:58.482 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:14:58.483 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1891 ms
+2021-01-09 15:15:00.387 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:15:00.508 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:15:00.971 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:15:00.992 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:15:00.993 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:15:01.024 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:15:01.057 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:15:01.154 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:15:01.191 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#82bc58:0/SimpleConnection@16e6fa5 [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 63119]
+2021-01-09 15:15:01.268 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.354 seconds (JVM running for 6.231)
+2021-01-09 15:16:52.956 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:16:52.960 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:16:53.136 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:16:53.137 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:16:57.195 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 11948 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:16:57.202 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:16:58.294 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:16:58.297 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:16:58.329 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:16:58.656 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9a0150de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:16:58.696 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:16:58.706 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$8b08e944] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:16:59.064 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:16:59.074 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:16:59.075 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:16:59.075 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:16:59.209 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:16:59.209 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1920 ms
+2021-01-09 15:17:01.166 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:17:01.290 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:17:01.752 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:17:01.773 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:17:01.774 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:17:01.808 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:17:01.842 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:17:01.940 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:17:01.976 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#981e78:0/SimpleConnection@144f1a [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 63161]
+2021-01-09 15:17:02.056 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.434 seconds (JVM running for 6.324)
+2021-01-09 15:17:04.257 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq====
+2021-01-09 15:17:18.990 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 15:17:18.990 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 15:17:18.991 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 15:17:19.633 [http-nio-6000-exec-1] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq second:0 ,执行method为:Producers.send
+2021-01-09 15:17:22.390 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq====
+2021-01-09 15:17:25.087 [http-nio-6000-exec-1] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 15:17:25.129 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 15:17:25.300 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 15:18:36.035 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:18:36.104 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:18:36.307 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:18:36.308 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:18:36.551 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 15:18:36.575 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 15:18:40.579 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 14316 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:18:40.585 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:18:41.665 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:18:41.667 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:18:41.696 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:18:42.012 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6c73fd1b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:18:42.042 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:18:42.060 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$5d7b9581] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:18:42.388 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:18:42.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:18:42.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:18:42.407 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:18:42.537 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:18:42.537 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1868 ms
+2021-01-09 15:18:44.354 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:18:44.472 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:18:44.920 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:18:44.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:18:44.941 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:18:44.973 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:18:45.005 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:18:45.103 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:18:45.140 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#fbcb71:0/SimpleConnection@14545c6 [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 63218]
+2021-01-09 15:18:45.216 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.203 seconds (JVM running for 6.149)
+2021-01-09 15:18:51.001 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 15:18:51.002 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 15:18:51.003 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 15:18:51.649 [http-nio-6000-exec-1] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq second:10 ,执行method为:Producers.send
+2021-01-09 15:18:51.691 [http-nio-6000-exec-1] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 15:18:51.728 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 15:18:51.901 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 15:19:01.686 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq====
+2021-01-09 15:19:05.771 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:19:06.706 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:19:06.940 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:19:06.942 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:19:07.171 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 15:19:07.183 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 15:20:36.177 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 12388 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:20:36.180 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:20:37.321 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:20:37.323 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:20:37.353 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:20:37.678 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4ee2a582] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:20:37.715 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:20:37.726 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$3fea3de8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:20:38.075 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:20:38.093 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:20:38.094 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:20:38.094 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:20:38.227 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:20:38.227 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1966 ms
+2021-01-09 15:20:40.157 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:20:40.284 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:20:40.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:20:40.759 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:20:40.761 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:20:40.780 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:20:40.827 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:20:40.924 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:20:40.962 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1f0e6d4:0/SimpleConnection@15230cd [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 63301]
+2021-01-09 15:20:41.041 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.436 seconds (JVM running for 6.38)
+2021-01-09 15:20:53.089 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:20:54.058 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:20:54.282 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:20:54.283 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:20:58.472 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 12360 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:20:58.478 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:20:59.566 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:20:59.569 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:20:59.597 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:20:59.918 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d487e712] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:20:59.951 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:20:59.969 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$c58f7f78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:21:00.312 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:21:00.321 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:21:00.322 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:21:00.322 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:21:00.457 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:21:00.457 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1900 ms
+2021-01-09 15:21:02.323 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:21:02.449 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:21:02.899 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:21:02.921 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:21:02.922 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:21:02.955 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:21:02.987 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:21:03.080 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:21:03.132 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1ba0dac:0/SimpleConnection@1bb48dd [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 63317]
+2021-01-09 15:21:03.196 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.303 seconds (JVM running for 6.21)
+2021-01-09 15:23:13.811 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 15:23:13.811 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 15:23:13.813 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 15:23:14.505 [http-nio-6000-exec-1] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq1 second:10 ,执行method为:Producers.send
+2021-01-09 15:23:14.530 [http-nio-6000-exec-1] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 15:23:14.562 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 15:23:14.733 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 15:23:24.534 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq1====
+2021-01-09 15:24:53.798 [http-nio-6000-exec-3] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq1 second:10 ,执行method为:Producers.send
+2021-01-09 15:24:53.801 [http-nio-6000-exec-3] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 15:25:03.807 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq1====
+2021-01-09 15:26:17.310 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:26:17.880 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:26:18.154 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:26:18.155 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:26:18.465 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 15:26:18.475 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 15:27:10.262 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 2404 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:27:10.265 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:27:11.390 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:27:11.393 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:27:11.424 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:27:11.759 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8f5fd03e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:27:11.797 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:27:11.816 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$806768a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:27:12.154 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:27:12.163 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:27:12.164 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:27:12.164 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:27:12.305 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:27:12.306 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms
+2021-01-09 15:27:14.181 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:27:14.306 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:27:14.759 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:27:14.778 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:27:14.779 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:27:14.798 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:27:14.845 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:27:14.949 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:27:14.989 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#17740f0:0/SimpleConnection@d35f24 [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 63476]
+2021-01-09 15:27:15.072 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.419 seconds (JVM running for 6.305)
+2021-01-09 15:27:41.445 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 15:27:41.445 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 15:27:41.446 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-01-09 15:27:42.107 [http-nio-6000-exec-1] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq1 second:10 ,执行method为:Producers.send
+2021-01-09 15:27:42.147 [http-nio-6000-exec-1] INFO  com.chengq.chengq.controller.HomeController - =======info===========1
+2021-01-09 15:27:42.180 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 15:27:42.333 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 15:27:52.144 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq1====
+2021-01-09 15:42:06.472 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:42:07.082 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:42:07.321 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:42:07.323 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:42:07.568 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 15:42:07.579 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 15:42:11.853 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 14148 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 15:42:11.856 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 15:42:12.935 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:42:12.937 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:42:12.971 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:42:13.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1610cf5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:42:13.315 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:42:13.334 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$71867c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:42:13.666 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 15:42:13.674 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:42:13.675 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 15:42:13.675 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 15:42:13.812 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 15:42:13.812 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1870 ms
+2021-01-09 15:42:15.686 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:42:15.804 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:42:16.257 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 15:42:16.277 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 15:42:16.278 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:42:16.309 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:42:16.341 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:42:16.464 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:42:16.511 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1be51aa:0/SimpleConnection@11e5ffa [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 63811]
+2021-01-09 15:42:16.568 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.286 seconds (JVM running for 6.2)
+2021-01-09 15:42:26.079 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 15:42:26.079 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 15:42:26.081 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-01-09 15:42:26.749 [http-nio-6000-exec-1] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq,rabbitmq测试1 second:10 ,执行method为:Producers.send
+2021-01-09 15:42:26.773 [http-nio-6000-exec-1] INFO  com.chengq.chengq.controller.HomeController - =======redis测试结果===========测试redis专用
+2021-01-09 15:42:26.806 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 15:42:26.966 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 15:42:36.777 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq,rabbitmq测试1====
+2021-01-09 15:56:39.463 [main] INFO  com.chengq.chengq.ChengqApplicationTests - Starting ChengqApplicationTests using Java 1.8.0_161 on SKY-20180301EDX with PID 13432 (started by Administrator in E:\javawork\chengq)
+2021-01-09 15:56:39.464 [main] INFO  com.chengq.chengq.ChengqApplicationTests - The following profiles are active: dev
+2021-01-09 15:56:40.479 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 15:56:40.483 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 15:56:40.507 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-01-09 15:56:40.865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f0e98b09] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:56:40.908 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 15:56:40.931 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$e1f1236f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 15:56:43.514 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 15:56:43.834 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 15:56:44.545 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 15:56:44.574 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 15:56:44.604 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 15:56:44.726 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 15:56:44.798 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#118fdfd:0/SimpleConnection@8afdad [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 64261]
+2021-01-09 15:56:44.856 [main] INFO  com.chengq.chengq.ChengqApplicationTests - Started ChengqApplicationTests in 5.778 seconds (JVM running for 6.729)
+2021-01-09 15:56:45.143 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 15:56:45.856 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 15:56:45.868 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 15:56:45.870 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 16:00:55.169 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Waiting for workers to finish.
+2021-01-09 16:00:55.664 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Successfully waited for workers to finish.
+2021-01-09 16:00:56.048 [SpringContextShutdownHook] INFO  o.s.a.r.listener.SimpleMessageListenerContainer - Shutdown ignored - container is not active already
+2021-01-09 16:00:56.049 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-09 16:00:56.229 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-01-09 16:00:56.257 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-01-09 16:14:08.701 [main] INFO  com.chengq.chengq.ChengqApplication - Starting ChengqApplication using Java 1.8.0_161 on SKY-20180301EDX with PID 13224 (E:\javawork\chengq\target\classes started by Administrator in E:\javawork\chengq)
+2021-01-09 16:14:08.708 [main] INFO  com.chengq.chengq.ChengqApplication - The following profiles are active: dev
+2021-01-09 16:14:09.802 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-09 16:14:09.804 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-09 16:14:09.834 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2021-01-09 16:14:10.152 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e118c2c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 16:14:10.191 [main] INFO  o.s.w.s.a.server.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-01-09 16:14:10.203 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.chengq.chengq.conf.RedisConfig$$EnhancerBySpringCGLIB$$d2205b2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-09 16:14:10.551 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 6000 (http)
+2021-01-09 16:14:10.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-6000"]
+2021-01-09 16:14:10.561 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-09 16:14:10.561 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-09 16:14:10.699 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-09 16:14:10.699 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1910 ms
+2021-01-09 16:14:12.601 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-09 16:14:12.709 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-09 16:14:13.178 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-6000"]
+2021-01-09 16:14:13.202 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 6000 (http) with context path ''
+2021-01-09 16:14:13.203 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-01-09 16:14:13.222 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-01-09 16:14:13.268 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-01-09 16:14:13.405 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+2021-01-09 16:14:13.440 [main] INFO  o.s.a.rabbit.connection.CachingConnectionFactory - Created new connection: rabbitConnectionFactory#5747db:0/SimpleConnection@269c65 [delegate=amqp://chengq@127.0.0.1:5672/, localPort= 65027]
+2021-01-09 16:14:13.512 [main] INFO  com.chengq.chengq.ChengqApplication - Started ChengqApplication in 5.399 seconds (JVM running for 6.334)
+2021-01-09 16:14:58.001 [http-nio-6000-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-09 16:14:58.001 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-09 16:14:58.003 [http-nio-6000-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2021-01-09 16:15:02.859 [http-nio-6000-exec-1] INFO  com.chengq.chengq.rabbitmq.producer.Producers - =======队列生成结果:true========队列生产Body:我是rabbitmq,rabbitmq测试1 second:10 ,执行method为:Producers.send
+2021-01-09 16:15:02.875 [http-nio-6000-exec-1] INFO  com.chengq.chengq.controller.HomeController - =======redis测试结果===========测试redis专用
+2021-01-09 16:15:02.929 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-01-09 16:15:03.091 [http-nio-6000-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-01-09 16:15:12.888 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-1] INFO  com.chengq.chengq.rabbitmq.consumer.Consumers - 消费结果========routingKey:chengq.dead.routing.key====exchange:chengq.deal.exchange=====body:我是rabbitmq,rabbitmq测试1====
