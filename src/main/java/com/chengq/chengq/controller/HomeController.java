@@ -45,7 +45,7 @@ public class HomeController {
     
      @ApiOperation(value = "test接口")
      @GetMapping("test")
-     public ResponseModel test()
+     public String test()
      {
          return "chengq";
      }
