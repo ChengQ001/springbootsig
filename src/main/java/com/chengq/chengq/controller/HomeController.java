@@ -42,4 +42,11 @@ public class HomeController {
         logger.info("=======redis测试结果===========" + redisUtil.get("redis"));
         return ResponseHelper.succeed(AccountMapper.selectList(null));
     }
+    
+     @ApiOperation(value = "test接口")
+     @GetMapping("test")
+     public ResponseModel test()
+     {
+         return "chengq";
+     }
 }
