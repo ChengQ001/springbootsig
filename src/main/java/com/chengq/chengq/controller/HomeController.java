@@ -17,7 +17,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
 @RestController
 @RequestMapping("/api/home")
 @Api(tags = "我的Home接口")
@@ -35,18 +34,18 @@ public class HomeController {
     @ApiOperation(value = "hello接口")
     @GetMapping("hello")
     public ResponseModel hello(@RequestParam("id") Long id) {
-        redisUtil.set("redis", "测试redis专用", 20);
-
-        rabbitMqProducer.send("我是rabbitmq,rabbitmq测试" + id, 10L);
-
-        logger.info("=======redis测试结果===========" + redisUtil.get("redis"));
-        return ResponseHelper.succeed(AccountMapper.selectList(null));
+        //        redisUtil.set("redis", "测试redis专用", 20);
+        //
+        //        rabbitMqProducer.send("我是rabbitmq,rabbitmq测试" + id, 10L);
+        //
+        //        logger.info("=======redis测试结果===========" + redisUtil.get("redis"));
+        //        return ResponseHelper.succeed(AccountMapper.selectList(null));
+        return ResponseHelper.succeed("hello");
     }
-    
-     @ApiOperation(value = "test接口")
-     @GetMapping("test")
-     public String test()
-     {
-         return "chengq";
-     }
+
+    @ApiOperation(value = "test接口")
+    @GetMapping("test")
+    public String test() {
+        return "chengq";
+    }
 }
