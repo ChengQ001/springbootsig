@@ -174,7 +174,7 @@
     <!--    <logger name="com.yifan.im.sys" level="debug"/>&lt;!&ndash; 修改此处扫描包名 &ndash;&gt;-->
     <!--  </springProfile>-->
 
-    <root level="info">
+    <root level="DEBUG">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="DEBUG_FILE"/>
         <appender-ref ref="INFO_FILE"/>

@@ -6,9 +6,7 @@ import com.chengq.chengq.entity.AccountEntity;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
-@Component
-@Mapper
+
 public interface AccountMapper extends BaseMapper<AccountEntity> {
-
-
+    AccountEntity getModel(Integer id);
 }

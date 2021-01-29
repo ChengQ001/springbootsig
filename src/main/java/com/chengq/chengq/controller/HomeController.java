@@ -22,8 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Api(tags = "我的Home接口")
 public class HomeController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
-    @Autowired
-    AccountMapper AccountMapper;
+
 
     @Autowired
     Producers rabbitMqProducer;
