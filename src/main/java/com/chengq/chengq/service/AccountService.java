@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chengq.chengq.entity.AccountEntity;
 import com.chengq.chengq.mapper.AccountMapper;
+import com.chengq.chengq.model.account.AccountPageReq;
 import com.chengq.chengq.model.account.AccountQuery;
 import org.springframework.stereotype.Service;
 
@@ -23,6 +24,14 @@ public class AccountService extends ServiceImpl<AccountMapper, AccountEntity> {
         query.setSort("desc");
         IPage<AccountEntity> page = PageFactory.createPage(query);
         this.page(page, query.buildWrapper(AccountEntity.class));
+        PageResult<AccountEntity> pageResult = new PageResult<>(page.getRecords(), page.getCurrent(), page.getSize(),
+                page.getTotal(), page.getPages());
+        return pageResult;
+    }
+
+    public PageResult<AccountEntity> getMyPage(AccountPageReq query) {
+        IPage<AccountEntity> page = PageFactory.createPage(query);
+        this.baseMapper.getMyPage(page,query);
         PageResult<AccountEntity> pageResult = new PageResult<>(page.getRecords(), page.getCurrent(), page.getSize(),
                 page.getTotal(), page.getPages());
         return pageResult;

@@ -2,6 +2,7 @@ package com.chengq.chengq.controller;
 
 
 import com.chengq.chengq.entity.AccountEntity;
+import com.chengq.chengq.model.account.AccountPageReq;
 import com.chengq.chengq.model.account.AccountQuery;
 import com.chengq.chengq.service.AccountService;
 import com.chengq.chengq.tools.ResponseHelper;
@@ -34,5 +35,11 @@ public class LoginController {
     @PostMapping("getPage")
     public ResponseModel getPage(@RequestBody AccountQuery req) {
         return ResponseHelper.succeed(accountService.getPage(req));
+    }
+
+    @ApiOperation(value = "自定义分页用户")
+    @PostMapping("getMyPage")
+    public ResponseModel getMyPage(@RequestBody AccountPageReq req) {
+        return ResponseHelper.succeed(accountService.getMyPage(req));
     }
 }
