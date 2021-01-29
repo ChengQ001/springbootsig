@@ -2,16 +2,14 @@ package com.chengq.chengq.controller;
 
 
 import com.chengq.chengq.entity.AccountEntity;
+import com.chengq.chengq.model.account.AccountQuery;
 import com.chengq.chengq.service.AccountService;
 import com.chengq.chengq.tools.ResponseHelper;
 import com.chengq.chengq.tools.ResponseModel;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
@@ -29,5 +27,12 @@ public class LoginController {
         AccountEntity entity = accountService.getModel(id);
 
         return ResponseHelper.succeed(entity);
+    }
+
+
+    @ApiOperation(value = "分页用户")
+    @PostMapping("getPage")
+    public ResponseModel getPage(@RequestBody AccountQuery req) {
+        return ResponseHelper.succeed(accountService.getPage(req));
     }
 }
