@@ -24,6 +24,14 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.7.0</version>
+        </dependency>
+
+
         <!-- https://mvnrepository.com/artifact/cn.stylefeng.roses/kernel-core -->
         <dependency>
             <groupId>cn.stylefeng.roses</groupId>

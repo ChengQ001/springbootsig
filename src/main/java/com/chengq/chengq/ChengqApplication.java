@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @MapperScan("com.chengq.chengq.mapper")
-@EnableTransactionManagement(proxyTargetClass=true)
+//@EnableTransactionManagement(proxyTargetClass=true)
 @SpringBootApplication
 @Slf4j
 public class ChengqApplication {
