@@ -2,7 +2,7 @@ package com.chengq.chengq.controller;
 
 
 
-import com.chengq.chengq.tools.ResponseModel;
+import com.chengq.chengq.ulit.ResponseModel;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;

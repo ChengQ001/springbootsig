@@ -17,8 +17,8 @@
     <select id="getMyPage" resultMap="BaseResultMap" >
           select * from account
             where  1=1
-          <if test="query.username!=null">
-              and username like binary CONCAT('%',#{query.username},'%')
+          <if test="ew.username!=null">
+              and username like binary CONCAT('%',#{ew.username},'%')
 
           </if>
         order  by id desc
