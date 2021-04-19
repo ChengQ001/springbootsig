@@ -84,18 +84,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
+        <!--   end     RabbitMQ-->
         <!--        字段验证-->
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
             <version>1.1.0.Final</version>
         </dependency>
-
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
             <version>5.4.1.Final</version>
         </dependency>
+        <!--    end    字段验证-->
+
+
         <!--quartz定时服务-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -106,6 +109,7 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.1</version>
         </dependency>
+        <!--  end quartz定时服务-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
