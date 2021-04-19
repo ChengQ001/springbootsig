@@ -1,13 +1,11 @@
-package com.chengq.chengq.mapper;
+package com.chengq.chengq.businessmodule.mapper.mapping;
+
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.chengq.chengq.entity.AccountEntity;
-
+import com.chengq.chengq.businessmodule.entity.AccountEntity;
 import com.chengq.chengq.model.account.AccountQuery;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.web.bind.annotation.PathVariable;
 
 
 public interface AccountMapper extends BaseMapper<AccountEntity> {

@@ -1,28 +1,35 @@
-package com.chengq.chengq.provider;
+package com.chengq.chengq.businessmodule.provider;
 
-import com.chengq.chengq.controller.LoginController;
+import com.chengq.chengq.businessmodule.controller.TestController;
 import com.chengq.chengq.model.account.AccountQuery;
-import com.chengq.chengq.service.AccountService;
+import com.chengq.chengq.rabbitmq.producer.Producers;
+import com.chengq.chengq.businessmodule.service.AccountService;
 import com.chengq.chengq.tools.JwtOperator;
+import com.chengq.chengq.tools.RedisUtil;
 import com.chengq.chengq.ulit.ResponseHelper;
 import com.chengq.chengq.ulit.ResponseModel;
 import io.jsonwebtoken.Claims;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 
+@Slf4j
 @RestController
-public class LoginProvider implements LoginController {
+public class LoginProvider implements TestController {
     @Autowired
     AccountService accountService;
-
+    @Autowired
+    Producers rabbitMqProducer;
     @Autowired
     private JwtOperator jwtOperator;
-
+    @Autowired
+    private RedisUtil redisUtil;
 
     @Override
     public ResponseModel getUserInfo(Integer id) {
-        return  ResponseHelper.succeed(accountService.getModel(id));
+        return ResponseHelper.succeed(accountService.getModel(id));
     }
 
     @Override
@@ -46,5 +53,16 @@ public class LoginProvider implements LoginController {
     @Override
     public ResponseModel getMyPage(AccountQuery query) {
         return ResponseHelper.succeed(accountService.getMyPage(query));
+    }
+
+    @Override
+    public ResponseModel hello(@RequestParam("id") Long id) {
+        redisUtil.set("redis", "测试redis专用", 20);
+
+        rabbitMqProducer.send("我是rabbitmq,rabbitmq测试" + id, 10L);
+
+        log.info("=======redis测试结果===========" + redisUtil.get("redis"));
+        //        return ResponseHelper.succeed(AccountMapper.selectList(null));
+        return ResponseHelper.succeed("hello");
     }
 }

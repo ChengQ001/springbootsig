@@ -1,6 +1,4 @@
-package com.chengq.chengq.tools;
-
-import com.chengq.chengq.Enums.AbstractBaseExceptionEnum;
+package com.chengq.chengq.exception;
 
 public class ServiceException extends RuntimeException {
 

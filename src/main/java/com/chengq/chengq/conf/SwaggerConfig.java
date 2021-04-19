@@ -1,6 +1,7 @@
 package com.chengq.chengq.conf;
 
-import org.springframework.beans.factory.annotation.Value;
+import com.chengq.chengq.tools.ConfigValueUtil;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -16,16 +17,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
-
-    @Value("${spring.profiles.active}")
-    private String environment;
-
-    @Value("${swagger.enabled}")
-    private Boolean enable;
+    @Autowired
+    private ConfigValueUtil configValueUtil;
 
     private Boolean getEnable() {
         try {
-            return environment.equals("dev") && enable;
+            return configValueUtil.getEnvironment().equals("dev") && configValueUtil.getSwaggerEnable();
         } catch (Exception ex) {
             return false;
         }

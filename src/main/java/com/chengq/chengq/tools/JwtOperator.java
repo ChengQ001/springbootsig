@@ -5,12 +5,10 @@ import cn.hutool.core.date.DateUtil;
 import io.jsonwebtoken.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.tomcat.util.codec.binary.Base64;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import javax.crypto.SecretKey;
-import javax.crypto.spec.SecretKeySpec;
 import java.util.Date;
 import java.util.UUID;
 
@@ -21,12 +19,10 @@ import java.util.UUID;
 public class JwtOperator {
 
     public String SUBJECT = "admin";
-    /**
-     * 秘钥
-     * -
-     */
-    @Value("${jwt.secret}")
-    private String secret;
+
+    @Autowired
+    private ConfigValueUtil configValueUtil;
+
     /**
      * 有效期，单位秒
      * - 默认2周
@@ -42,24 +38,6 @@ public class JwtOperator {
      * @return
      */
     public String geneJsonWebToken(String userInfo) {
-
-        //        if (ToolUtil.isEmpty(userInfo)) {
-        //            return null;
-        //        }
-        //        long nowMillis = System.currentTimeMillis();
-        //        Date issuedAt = new Date(nowMillis);
-        //
-        //
-        //        SecretKey secretKey = createSecretKey();
-        //
-        //
-        //        String token = Jwts.builder().setSubject(SUBJECT)
-        //                .claim("id", userInfo)
-        //                //                .claim("name", userInfo.getUserName())
-        //                .setIssuedAt(issuedAt)
-        //                .setExpiration(expiration)
-        //                .signWith(SignatureAlgorithm.HS256, secret).compact();
-        //        return token;
 
         SignatureAlgorithm signatureAlgorithm = SignatureAlgorithm.HS256; //指定签名的时候使用的签名算法，也就是header那部分，jjwt
         // 已经将这部分内容封装好了。
@@ -77,14 +55,14 @@ public class JwtOperator {
                 .setIssuedAt(now)           //iat: jwt的签发时间
                 .setSubject(SUBJECT)        //sub(Subject)：代表这个JWT的主体，即它的所有人，这个是一个json格式的字符串，可以存放什么userid，roldid
                 // 之类的，作为什么用户的唯一标志。
-                .signWith(signatureAlgorithm, secret);//设置签名使用的签名算法和签名使用的秘钥
+                .signWith(signatureAlgorithm, configValueUtil.getSecret());//设置签名使用的签名算法和签名使用的秘钥
         //设置过期时间
         if (expirationTimeInSecond >= 0) {
             long expMillis = nowMillis + expirationTimeInSecond * 1000;
             Date exp = new Date(expMillis);
             builder.setExpiration(exp);
         }
-        String newToken = "jwt_" + builder.compact();
+        String newToken = configValueUtil.getTokenPrefix() + builder.compact();
         return newToken;
 
     }
@@ -98,7 +76,7 @@ public class JwtOperator {
      */
     public Claims checkJWT(String token) {
         try {
-            final Claims claims = Jwts.parser().setSigningKey(secret).
+            final Claims claims = Jwts.parser().setSigningKey(configValueUtil.getSecret()).
                     parseClaimsJws(token.replace("jwt_", "")).getBody();
 
             String date = DateUtil.format(claims.getExpiration(), "yyyy-MM-dd HH:mm:ss");
@@ -139,8 +117,8 @@ public class JwtOperator {
     public Claims getClaimFromToken(String token) {
         //        SecretKey secretKey = secret;
         return Jwts.parser()   //得到DefaultJwtParser
-                .setSigningKey(secret)  //设置签名的秘钥
-                .parseClaimsJws(token.replace("jwt_", ""))
+                .setSigningKey(configValueUtil.getSecret())  //设置签名的秘钥
+                .parseClaimsJws(token.replace(configValueUtil.getTokenPrefix(), ""))
                 .getBody();
     }
 

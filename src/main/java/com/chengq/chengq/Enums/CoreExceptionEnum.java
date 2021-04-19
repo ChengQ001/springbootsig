@@ -1,5 +1,7 @@
 package com.chengq.chengq.Enums;
 
+import com.chengq.chengq.exception.AbstractBaseExceptionEnum;
+
 public enum CoreExceptionEnum implements AbstractBaseExceptionEnum {
 
     SUCCESS("200","成功"),

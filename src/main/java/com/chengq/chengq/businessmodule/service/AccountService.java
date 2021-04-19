@@ -1,14 +1,17 @@
-package com.chengq.chengq.service;
+package com.chengq.chengq.businessmodule.service;
 
 
+import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.lang.Validator;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.chengq.chengq.Enums.CoreExceptionEnum;
-import com.chengq.chengq.tools.ServiceException;
-import com.chengq.chengq.entity.AccountEntity;
-import com.chengq.chengq.mapper.AccountMapper;
+import com.chengq.chengq.businessmodule.entity.AccountEntity;
+import com.chengq.chengq.businessmodule.mapper.mapping.AccountMapper;
+import com.chengq.chengq.exception.ServiceException;
 import com.chengq.chengq.model.account.AccountQuery;
+import com.chengq.chengq.model.account.AccountResp;
 import com.chengq.chengq.ulit.PageListVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -18,9 +21,10 @@ import org.springframework.stereotype.Service;
 public class AccountService extends ServiceImpl<AccountMapper, AccountEntity> {
 
     public PageListVO<AccountEntity> getMyPage(AccountQuery req) {
-        Page<AccountEntity> page = new Page<>(req.getCurrentPage(), req.getPageSize());
+        Page<AccountEntity> page = new Page<>(req.getPageIndex(), req.getPageSize());
         IPage<AccountEntity> res = this.baseMapper.getMyPage(page, req);
-        if ( true) {
+
+        if (Validator.isEmpty(req.getUsername())) {
             log.error("异常啦");
             throw new ServiceException(CoreExceptionEnum.ALI_OSS_ERROR);
         }
@@ -29,8 +33,10 @@ public class AccountService extends ServiceImpl<AccountMapper, AccountEntity> {
                 res.getTotal());
     }
 
-    public AccountEntity getModel(Integer id) {
-        return this.baseMapper.getModel(id);
+    public AccountResp getModel(Integer id) {
+        AccountResp accountResp = BeanUtil.toBean(this.baseMapper.getModel(id), AccountResp.class);
+        accountResp.setStatus(1);
+        return accountResp;
     }
 
 }

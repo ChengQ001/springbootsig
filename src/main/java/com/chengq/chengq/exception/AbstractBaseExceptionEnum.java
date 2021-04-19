@@ -1,4 +1,4 @@
-package com.chengq.chengq.Enums;
+package com.chengq.chengq.exception;
 
 public interface AbstractBaseExceptionEnum {
     /**
