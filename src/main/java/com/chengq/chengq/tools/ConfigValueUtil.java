@@ -16,29 +16,23 @@ public class ConfigValueUtil {
      */
     @Value("${spring.profiles.active}")
     private String environment;
-
-    /**
-     * swagger开关
-     */
-    @Value("${swagger.enabled}")
-    private Boolean swaggerEnable;
-
-
-
     /**
      * 秘钥jwt
      * -
      */
     @Value("${jwt.secret}")
-    private String secret;
-
+   private String secret;
     /**
      * 有效期，单位秒
      * - 默认2周
      */
     @Value("${jwt.expiration}")
     private long expirationTimeInSecond;
-
+    /**
+     * swagger开关
+     */
+    @Value("${swagger.enabled}")
+    private Boolean swaggerEnable;
     /**
      * jwt前缀
      */

@@ -20,16 +20,63 @@ public class JwtOperator {
 
     public String SUBJECT = "admin";
 
+
     @Autowired
-    private ConfigValueUtil configValueUtil;
+    ConfigValueUtil configValueUtil;
 
     /**
-     * 有效期，单位秒
-     * - 默认2周
+     * <pre>
+     *  验证token是否失效
+     *  true:过期   false:没过期
+     * </pre>
      */
-    @Value("${jwt.expiration}")
-    private long expirationTimeInSecond;
+    public Boolean isTokenExpired(String token) {
+        try {
+              Date expiration = getExpirationDateFromToken(token);
+            return expiration.before(new Date());
+        } catch (ExpiredJwtException expiredJwtException) {
+            return true;
+        }
+    }
 
+    /**
+     * 校验token
+     *
+     * @param token
+     * @return
+     */
+    public Claims checkJWT(String token) {
+        try {
+            final Claims claims = Jwts.parser().setSigningKey(configValueUtil.getSecret()).
+                    parseClaimsJws(token.replace("jwt_", "")).getBody();
+
+            String date = DateUtil.format(claims.getExpiration(), "yyyy-MM-dd HH:mm:ss");
+            System.out.println("有效期为：" + date);
+            return claims;
+
+        } catch (Exception e) {
+
+        }
+        return null;
+    }
+
+    /**
+     * 获取jwt失效时间
+     */
+    public Date getExpirationDateFromToken(String token) {
+        return getClaimFromToken(token).getExpiration();
+    }
+
+    /**
+     * 获取jwt的payload部分
+     */
+    public Claims getClaimFromToken(String token) {
+        //        SecretKey secretKey = secret;
+        return Jwts.parser()   //得到DefaultJwtParser
+                .setSigningKey(configValueUtil.getSecret())  //设置签名的秘钥
+                .parseClaimsJws(token.replace(configValueUtil.getTokenPrefix(), ""))
+                .getBody();
+    }
 
     /**
      * 生成jwt
@@ -57,69 +104,14 @@ public class JwtOperator {
                 // 之类的，作为什么用户的唯一标志。
                 .signWith(signatureAlgorithm, configValueUtil.getSecret());//设置签名使用的签名算法和签名使用的秘钥
         //设置过期时间
-        if (expirationTimeInSecond >= 0) {
-            long expMillis = nowMillis + expirationTimeInSecond * 1000;
+        if (configValueUtil.getExpirationTimeInSecond() >= 0) {
+            long expMillis = nowMillis + configValueUtil.getExpirationTimeInSecond() * 1000;
             Date exp = new Date(expMillis);
             builder.setExpiration(exp);
         }
         String newToken = configValueUtil.getTokenPrefix() + builder.compact();
         return newToken;
 
-    }
-
-
-    /**
-     * 校验token
-     *
-     * @param token
-     * @return
-     */
-    public Claims checkJWT(String token) {
-        try {
-            final Claims claims = Jwts.parser().setSigningKey(configValueUtil.getSecret()).
-                    parseClaimsJws(token.replace("jwt_", "")).getBody();
-
-            String date = DateUtil.format(claims.getExpiration(), "yyyy-MM-dd HH:mm:ss");
-            System.out.println("有效期为：" + date);
-            return claims;
-
-        } catch (Exception e) {
-
-        }
-        return null;
-    }
-
-    /**
-     * <pre>
-     *  验证token是否失效
-     *  true:过期   false:没过期
-     * </pre>
-     */
-    public Boolean isTokenExpired(String token) {
-        try {
-            final Date expiration = getExpirationDateFromToken(token);
-            return expiration.before(new Date());
-        } catch (ExpiredJwtException expiredJwtException) {
-            return true;
-        }
-    }
-
-    /**
-     * 获取jwt失效时间
-     */
-    public Date getExpirationDateFromToken(String token) {
-        return getClaimFromToken(token).getExpiration();
-    }
-
-    /**
-     * 获取jwt的payload部分
-     */
-    public Claims getClaimFromToken(String token) {
-        //        SecretKey secretKey = secret;
-        return Jwts.parser()   //得到DefaultJwtParser
-                .setSigningKey(configValueUtil.getSecret())  //设置签名的秘钥
-                .parseClaimsJws(token.replace(configValueUtil.getTokenPrefix(), ""))
-                .getBody();
     }
 
 

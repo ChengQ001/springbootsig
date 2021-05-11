@@ -14,10 +14,12 @@ import com.chengq.chengq.model.account.AccountQuery;
 import com.chengq.chengq.model.account.AccountResp;
 import com.chengq.chengq.ulit.PageListVO;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.stereotype.Service;
 
 @Service
 @Slf4j
+@EnableAsync
 public class AccountService extends ServiceImpl<AccountMapper, AccountEntity> {
 
     public PageListVO<AccountEntity> getMyPage(AccountQuery req) {

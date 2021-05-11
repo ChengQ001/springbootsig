@@ -5,6 +5,7 @@ import com.chengq.chengq.model.account.AccountQuery;
 import com.chengq.chengq.ulit.ResponseModel;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;

@@ -19,28 +19,29 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LoginProvider implements TestController {
     @Autowired
-    AccountService accountService;
+    AccountService service;
     @Autowired
     Producers rabbitMqProducer;
-    @Autowired
-    private JwtOperator jwtOperator;
+
     @Autowired
     private RedisUtil redisUtil;
+    @Autowired
+    private JwtOperator JwtOperator;
 
     @Override
     public ResponseModel getUserInfo(Integer id) {
-        return ResponseHelper.succeed(accountService.getModel(id));
+        return ResponseHelper.succeed(service.getModel(id));
     }
 
     @Override
     public ResponseModel getToken(String userInfo) {
-        return ResponseHelper.succeed(jwtOperator.geneJsonWebToken(userInfo));
+        return ResponseHelper.succeed(JwtOperator.geneJsonWebToken(userInfo));
     }
 
     @Override
     public ResponseModel getTokenInfo(String token) {
 
-        Claims claims = jwtOperator.checkJWT(token);
+        Claims claims = JwtOperator.checkJWT(token);
         String id = "";
         if (claims != null) {
             id = (String) claims.get("id");
@@ -52,7 +53,7 @@ public class LoginProvider implements TestController {
 
     @Override
     public ResponseModel getMyPage(AccountQuery query) {
-        return ResponseHelper.succeed(accountService.getMyPage(query));
+        return ResponseHelper.succeed(service.getMyPage(query));
     }
 
     @Override

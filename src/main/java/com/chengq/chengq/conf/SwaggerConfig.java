@@ -18,7 +18,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
     @Autowired
-    private ConfigValueUtil configValueUtil;
+    ConfigValueUtil configValueUtil;
 
     private Boolean getEnable() {
         try {

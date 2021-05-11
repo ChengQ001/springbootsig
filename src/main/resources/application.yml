@@ -3,7 +3,6 @@ spring:
     name: chengq
   profiles:
     active: dev
-
   main:
     allow-bean-definition-overriding: true
   datasource:
@@ -23,6 +22,8 @@ spring:
     host: localhost # Redis服务器地址
 
 
+
+
 server:
   port: 6000
 
@@ -39,7 +40,7 @@ mybatis-plus:
 
 jwt:
   secret: cassie
-  expiration: 60 #82800 秒
+  expiration: 82800 #82800 秒
   tokenPrefix: Bearer
 
 logging:
