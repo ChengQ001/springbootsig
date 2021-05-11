@@ -20,6 +20,7 @@ public interface TestController {
 
     @ApiOperation(value = "测试获取token")
     @PostMapping("/getToken")
+    @RequiresPermissions("角色A")  //添加需要授权的标签 不需要授权不用打 只需要设置路由匿名
     ResponseModel getToken(@RequestParam("userInfo")String userInfo);
 
     @ApiOperation(value = "测试获取getTokenInfo")
