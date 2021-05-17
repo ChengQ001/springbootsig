@@ -42,6 +42,7 @@ public class JwtFilter extends BasicHttpAuthenticationFilter {
         List<String> list = new ArrayList<>();
         list.add("/api/test/getToken");
         list.add("/api/test/getUserInfo");
+        list.add("/api/test/hello");
         return list;
     }
 

@@ -15,8 +15,10 @@ import java.util.Map;
 @Component
 public class Consumers {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
-
-    @RabbitListener(queues = {MQConstants.CHENGQ_DEAL_QUEUE})
+    /**
+     * https://blog.csdn.net/qq_40625058/article/details/105584732  安装插件https://www.cnblogs.com/isunsine/p/11572457.html
+     */
+    @RabbitListener(queues = {MQConstants.DELAYED_QUEUE_NAME})
     public void process(Message message, @Headers Map<String, Object> headers, Channel channel) {
 
         String routingKey = (String) headers.get(AmqpHeaders.RECEIVED_ROUTING_KEY);

@@ -60,7 +60,7 @@ public class LoginProvider implements TestController {
     public ResponseModel hello(@RequestParam("id") Long id) {
         redisUtil.set("redis", "测试redis专用", 20);
 
-        rabbitMqProducer.send("我是rabbitmq,rabbitmq测试" + id, 10L);
+        rabbitMqProducer.sendDelay("我是rabbitmq,rabbitmq测试" + id, id.intValue());
 
         log.info("=======redis测试结果===========" + redisUtil.get("redis"));
         //        return ResponseHelper.succeed(AccountMapper.selectList(null));
