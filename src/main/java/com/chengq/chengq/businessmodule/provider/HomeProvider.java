@@ -32,8 +32,7 @@ public class HomeProvider implements HomeController {
     public ResponseModel login(String username, String password) {
         UserBean userBean = userService.getUser(username);
         if (userBean.getPassword().equals(password)) {
-//            return new ResponseBean(200, "Login success", JWTUtil.sign(username, password));
-            return ResponseHelper.succeed( JWTUtil.sign(username, password));
+            return ResponseHelper.succeed(JWTUtil.sign(username, password));
         } else {
             throw new ServiceException(CoreExceptionEnum.ALI_OSS_ERROR);
         }
