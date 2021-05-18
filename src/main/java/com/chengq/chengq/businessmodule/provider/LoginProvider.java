@@ -4,11 +4,9 @@ import com.chengq.chengq.businessmodule.controller.TestController;
 import com.chengq.chengq.model.account.AccountQuery;
 import com.chengq.chengq.rabbitmq.producer.Producers;
 import com.chengq.chengq.businessmodule.service.AccountService;
-import com.chengq.chengq.tools.JwtOperator;
 import com.chengq.chengq.tools.RedisUtil;
 import com.chengq.chengq.ulit.ResponseHelper;
 import com.chengq.chengq.ulit.ResponseModel;
-import io.jsonwebtoken.Claims;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -25,31 +23,9 @@ public class LoginProvider implements TestController {
 
     @Autowired
     private RedisUtil redisUtil;
-    @Autowired
-    private JwtOperator JwtOperator;
 
-    @Override
-    public ResponseModel getUserInfo(Integer id) {
-        return ResponseHelper.succeed(service.getModel(id));
-    }
 
-    @Override
-    public ResponseModel getToken(String userInfo) {
-        return ResponseHelper.succeed(JwtOperator.geneJsonWebToken(userInfo));
-    }
 
-    @Override
-    public ResponseModel getTokenInfo(String token) {
-
-        Claims claims = JwtOperator.checkJWT(token);
-        String id = "";
-        if (claims != null) {
-            id = (String) claims.get("id");
-        } else {
-            id = "kong";
-        }
-        return ResponseHelper.succeed(id);
-    }
 
     @Override
     public ResponseModel getMyPage(AccountQuery query) {
