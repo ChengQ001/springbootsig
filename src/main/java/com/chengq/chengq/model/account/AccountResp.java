@@ -1,10 +1,7 @@
 package com.chengq.chengq.model.account;
 
 import cn.hutool.core.util.EnumUtil;
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.chengq.chengq.Enums.Enums;
+import com.chengq.chengq.Enums.ChengQEnums;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -24,7 +21,7 @@ public class AccountResp implements Serializable {
     private Integer status;
 
     public String getStatusDesc() {
-        return Optional.ofNullable(EnumUtil.likeValueOf(Enums.StatusEnum.class,
+        return Optional.ofNullable(EnumUtil.likeValueOf(ChengQEnums.StatusEnum.class,
                 status)).map(x -> x.toString()).orElse("");
     }
 }

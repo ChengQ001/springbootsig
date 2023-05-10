@@ -2,7 +2,7 @@ package com.chengq.chengq.Enums;
 
 import com.baomidou.mybatisplus.core.enums.IEnum;
 
-public class Enums {
+public class ChengQEnums {
 
     public enum StatusEnum implements IEnum<Integer> {
         /**

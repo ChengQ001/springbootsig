@@ -52,3 +52,9 @@ swagger:
 
 Scheduled:
   enabled: true
+
+#单机模式
+redisson:
+  enabled: true #是否启用分布式锁
+  address: redis://${spring.redis.host}:${spring.redis.port}
+  password: ${spring.redis.password} #可以不传
