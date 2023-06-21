@@ -14,32 +14,45 @@ import java.util.Map;
  */
 @Accessors(chain = true)
 @Data
-public class RetryHelper<T> {
+public class RetryHelper {
 
     private Integer maxRetries;//最大重试次数
     private Long sleepSecond;//设置执行间隔睡眠
 
-    public static RetryHelper init(Integer maxRetries, Long sleepSecond) {
-        return new RetryHelper().setSleepSecond(sleepSecond).setMaxRetries(maxRetries);
+    public static RetryHelper init(Integer maxRetries) {
+        if (ToolUtil.isEmpty(maxRetries)) {
+            maxRetries = 1;
+        }
+        return new RetryHelper().setMaxRetries(maxRetries);
     }
 
     /**
-     * 判断异常即可以重试，有返回值
-     * 如果不异常默认为执行成功
+     * 执行任务的逻辑，必须返回是否成功标识，否则默认为未成功
+     * Map<Boolean, T> Boolean是否成功，T 泛型返回值
      *
      * @author ChengQ
      * @date 2023-06-14 10:40:44
      */
-    public Map<Boolean, T> doTaskWithRetry(WorkResult<T> work) {
+    public <T> Map<Boolean, T> doTaskWithRetry(WorkResult work) {
         int retryCount = 0;
         boolean success = false;
-        T t = null;
+        Map<Boolean, T> booleanTMap = null;
         while (!success && retryCount < maxRetries) {
             try {
-                // 执行任务的逻辑
-                t = work.startResult();
-                success = true; // 标记任务执行成功
-            } catch (Exception e) {
+                booleanTMap = work.startResult();
+                if (ToolUtil.isEmpty(booleanTMap)) {
+                    booleanTMap = new HashMap<>();
+                    booleanTMap.put(false, null);
+                }
+            } catch (Exception exception) {
+                booleanTMap = new HashMap<>();
+                booleanTMap.put(false, null);
+            }
+            if (ToolUtil.isNotEmpty(booleanTMap.keySet())) {
+                Boolean next = booleanTMap.keySet().iterator().next();
+                success = next;
+            }
+            if (!success) {
                 retryCount++;
                 if (retryCount < maxRetries) {
                     if (sleepSecond != null && sleepSecond.longValue() > 0)
@@ -48,37 +61,9 @@ public class RetryHelper<T> {
                 }
             }
         }
-        Map<Boolean, T> map = new HashMap<>();
-        map.put(success, t);
-        return map;
+        return booleanTMap;
     }
 
-    /**
-     * 判断异常即可以重试，无返回值
-     * 如果不异常默认为执行成功
-     *
-     * @author ChengQ
-     * @date 2023-06-14 10:40:57
-     */
-    public Boolean doTaskWithRetry(Work work) {
-        int retryCount = 0;
-        boolean success = false;
-        while (!success && retryCount < maxRetries) {
-            try {
-                // 执行任务的逻辑
-                work.start();
-                success = true; // 标记任务执行成功
-            } catch (Exception e) {
-                retryCount++;
-                if (retryCount < maxRetries) {
-                    if (sleepSecond != null && sleepSecond.longValue() > 0)
-                        // 休眠一段时间后再次尝试
-                        sleepBeforeRetry();
-                }
-            }
-        }
-        return success;
-    }
 
     private void sleepBeforeRetry() {
         //设置休眠时间
@@ -91,11 +76,6 @@ public class RetryHelper<T> {
 
     @FunctionalInterface
     public interface WorkResult<ResT> {
-        ResT startResult();
-    }
-
-    @FunctionalInterface
-    public interface Work {
-        void start();
+        Map<Boolean, ResT> startResult();
     }
 }
