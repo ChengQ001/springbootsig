@@ -41,6 +41,8 @@ public interface HomeController {
     @RequiresPermissions(logical = Logical.AND, value = {"view", "edit"})
     ResponseModel requirePermission() ;
 
-
+    @ApiOperation(value = "测试")
+    @GetMapping("/test")
+    ResponseModel test();
 
 }

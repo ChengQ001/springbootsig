@@ -62,4 +62,9 @@ public class HomeProvider implements HomeController {
     public ResponseModel requirePermission() {
         return ResponseHelper.succeed( "","You are visiting requirePermission","200");
     }
+
+    @Override
+    public ResponseModel test() {
+        return ResponseHelper.succeed( userService.test());
+    }
 }
