@@ -3,8 +3,8 @@ package com.chengq.businessmodule.mapper.mapping;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.chengq.businessmodule.model.entity.AccountEntity;
 import com.chengq.businessmodule.model.account.AccountQuery;
+import com.chengq.businessmodule.model.entity.AccountEntity;
 import org.apache.ibatis.annotations.Param;
 
 
