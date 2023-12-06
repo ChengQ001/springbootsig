@@ -15,13 +15,11 @@ public interface HomeController {
 
     @ApiOperation(value = "登录")
     @PostMapping("/login")
-    @RequiresGuest
     ResponseModel login(@RequestParam("username") String username,
                         @RequestParam("password") String password);
 
     @ApiOperation(value = "匿名访问")
     @GetMapping("/article")
-    @RequiresGuest
     ResponseModel article();
 
 
@@ -31,12 +29,10 @@ public interface HomeController {
 
     @ApiOperation(value = "测试角色授权")
     @GetMapping("/require_role")
-    @RequiresRoles("admin")
     ResponseModel requireRole();
 
     @ApiOperation(value = "测试角色配置资源")
     @GetMapping("/require_permission")
-    @RequiresPermissions(logical = Logical.AND, value = {"view", "edit"})
     ResponseModel requirePermission() ;
 
     @ApiOperation(value = "测试")

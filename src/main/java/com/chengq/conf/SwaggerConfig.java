@@ -14,8 +14,7 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @Configuration
 @EnableSwagger2
@@ -26,14 +25,30 @@ public class SwaggerConfig {
 
     @Bean
     public Docket createRestApi() {
-        return new Docket(DocumentationType.SWAGGER_2).enable(configValueUtil.getSwaggerEnable())
+        return new Docket(DocumentationType.SWAGGER_2)
+                .enable(configValueUtil.getSwaggerEnable())
                 .apiInfo(apiInfo())
-                .securitySchemes(securitySchemes())
+                // .host("http://localhost:3350")
                 .select()
 
-                .apis(RequestHandlerSelectors.basePackage("com.chengq"))
+
+                .apis(RequestHandlerSelectors.basePackage("com.chengq.businessmodule"))
                 .paths(PathSelectors.any())
-                .build();
+                .build()
+                // 支持的通讯协议集合
+                .protocols(newHashSet("http", "https"))
+                // 授权信息设置，必要的header token等认证信息
+                .securitySchemes(securitySchemes())
+                ;
+
+    }
+
+    @SafeVarargs
+    private final <T> Set<T> newHashSet(T... ts) {
+        if (ts.length > 0) {
+            return new LinkedHashSet<>(Arrays.asList(ts));
+        }
+        return null;
     }
 
     private List<SecurityScheme> securitySchemes() {
@@ -44,10 +59,10 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("com.chengq")
-                .description("文档")
+                .title("ChengQ文档")
+                .description("ChengQ文档")
                 .termsOfServiceUrl("http://localhost/doc.html")
-                .contact(new Contact("ChengQ", "http://localhost:/doc.html", "694340776@qq.com"))
+                .contact(new Contact("ChengQ", "http://localhost:3350/doc.html", "694340776@qq.com"))
                 .version("1.0")
                 .build();
     }
