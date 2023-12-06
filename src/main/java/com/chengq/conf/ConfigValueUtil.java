@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 
 @Data
 @Component
-// @ConfigurationProperties(prefix = "config")
 public class ConfigValueUtil {
 
     /**
@@ -20,7 +19,7 @@ public class ConfigValueUtil {
      * -
      */
     @Value("${jwt.secret}")
-   private String secret;
+    private String secret;
     /**
      * 有效期，单位秒
      * - 默认2周
@@ -35,6 +34,6 @@ public class ConfigValueUtil {
     /**
      * jwt前缀
      */
-    @Value("${jwt.tokenPrefix}")
+    @Value("${jwt.tokenPrefix:prefix}")
     private String tokenPrefix;
 }
