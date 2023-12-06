@@ -30,7 +30,7 @@ public class ConfigValueUtil {
     /**
      * swagger开关
      */
-    @Value("${swagger.enabled}")
+    @Value("${swagger.enabled:false}")
     private Boolean swaggerEnable;
     /**
      * jwt前缀

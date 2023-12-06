@@ -3,7 +3,6 @@ package com.chengq.businessmodule.provider;
 import com.chengq.businessmodule.controller.TestController;
 import com.chengq.businessmodule.model.account.AccountQuery;
 import com.chengq.rabbitmq.producer.Producers;
-import com.chengq.businessmodule.service.AccountService;
 import com.chengq.businessmodule.model.base.ResponseHelper;
 import com.chengq.businessmodule.model.base.ResponseModel;
 import com.chengq.ulit.helper.RedisUtil;
@@ -16,8 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 public class LoginProvider implements TestController {
-    @Autowired
-    AccountService service;
+
     @Autowired
     Producers rabbitMqProducer;
 
@@ -29,7 +27,7 @@ public class LoginProvider implements TestController {
 
     @Override
     public ResponseModel getMyPage(AccountQuery query) {
-        return ResponseHelper.succeed(service.getMyPage(query));
+        return null;
     }
 
     @Override

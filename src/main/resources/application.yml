@@ -47,6 +47,8 @@ jwt:
 logging:
   #配置日志路径地址
   config: classpath:logback-spring.xml
+  level:
+    com.gsl.cache: debug
 
 swagger:
   enabled: true
